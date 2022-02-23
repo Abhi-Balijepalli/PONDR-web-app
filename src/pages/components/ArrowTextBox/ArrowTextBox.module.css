@@ -1,0 +1,25 @@
+.textbox {
+  width: 150px;
+  height: 75px;
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+  margin: 40px;
+  float: left;
+}
+
+.textbox {
+  margin-top: 40px;
+}
+
+.textbox:after {
+  content: " ";
+  position: absolute;
+  right: 50%;
+  top: -15px;
+  border-top: none;
+  border-right: 15px solid white;
+  border-left: 15px solid white;
+  border-bottom: 15px solid black;
+}
